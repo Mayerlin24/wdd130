@@ -122,7 +122,7 @@ footer a {
     text-decoration: none;
 }
 
-footer a:hover{
+footer p a:hover{
     background-color: #92DCE5;
     color: #000000
 }
