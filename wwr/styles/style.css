@@ -1,6 +1,6 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
 
 
 /* Step 9 */
@@ -58,11 +58,11 @@ nav a:hover {
 
 .book:hover, .join:hover {
     background-color: #92DCE5;
+    color: #000000
 }
 
 #background {
     background-color:#7C7C7C; 
-    margin-bottom: 100px;
 }
 .msg {
     background-color:#383D3B;
@@ -72,7 +72,9 @@ nav a:hover {
 
 footer {
     background-color:#7C7C7C;
-    color: #000000 
+    color: #000000; 
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 /* Step 13 */
@@ -85,7 +87,10 @@ nav a {
     padding: 35px;
 }
 .home-title {
-    color: #000000
+    color: #000000;
+    font-family: 'Georgia', serif;
+    font-size:  2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -100,10 +105,6 @@ h4 {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
-}
-.book:hover,
-.join:hover {
-    color: #000000
 }
 
 .msg h2 {
@@ -141,7 +142,6 @@ footer p a:hover{
     width: 100% 
 }
 
-
 footer p {
     font-size: 1.2em;
 }    
@@ -152,21 +152,10 @@ footer a:hover, nav a:hover{
 
 /* Step 15 */
 
-.home-title {
-    font-family: 'Georgia', serif;
-    font-size:  2em;
-    margin-top: 10px;
-}
-
-
 h2 {
     margin: 0;
 }
 
-footer {
-    padding: 25px 50px;
-    margin-top: 200px;
-}
 footer .social img {
     padding-top: 15px;
 }
@@ -186,9 +175,3 @@ footer .social img {
 main section img {
     box-sizing: border-box;
 }
-
-.mountains {
-    margin-bottom: 150px;
-}
-
-
