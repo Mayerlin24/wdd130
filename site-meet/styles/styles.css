@@ -246,6 +246,99 @@ footer p a:hover{
 footer a:hover, nav a:hover{
     text-decoration: underline;
 }
+/* Second Page Styles*/
+
+.places-grid {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+}
+.place-title {
+    grid-column: 4/9;
+    grid-row: 1/2;
+    text-align: center;
+    color: #5A3929;
+    margin-top: 100px;
+}
+
+.place-description {
+    grid-column: 4/9;
+    grid-row: 2/2;
+    text-align: center;
+    color: #5A3929;
+
+}
+.place-title:hover,
+.place-description:hover {
+    color: #447C99;
+}
+
+.places-img {
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 6/8;
+    margin-left: 20px;
+}
+.parks-paragraph {
+    grid-column: 1/4;
+    grid-row: 9/11;
+    color: #5A3929;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px; 
+    
+}
+.football-img {
+    width: 100%;
+    grid-column: 5/8;
+    grid-row: 6/8;
+
+}
+.football-paragraph {
+    grid-column: 5/8;
+    grid-row: 9/11;
+    color:#5A3929;
+    margin-top: 20px;
+    padding: 10px;
+    
+    
+}
+.collectivity-img {
+    width: 100%;
+    grid-column: 9/12;
+    grid-row:6/8;
+    margin-right: 20px;
+}
+.collectivities-paragraph {
+    grid-column: 9/12;
+    grid-row: 9/11;
+    color:#5A3929;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.places-img:hover,
+.football-img:hover,
+.collectivity-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+    
+}
+.places-img,
+.football-img,
+.collectivity-img {
+    margin-top: 100px;
+    box-shadow: 5px 5px 15px #447C99;
+}
+.parks-paragraph:hover,
+.collectivities-paragraph:hover,
+.football-paragraph:hover {
+
+    color:#447C99 ;
+
+}
+
+
 
 @media screen and (max-width: 900px) {
     .home-grid {
@@ -272,6 +365,26 @@ footer a:hover, nav a:hover{
     }
     footer {
         margin-top: 25px;
+    }
+
+     /* Second page*/
+     .places-grid {
+        display: block;
+        height: auto;
+    }
+    .places-img,
+    .football-img,
+    .collectivity-img {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    .parks-paragraph,
+    .collectivities-paragraph,
+    .football-paragraph  {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
     }
 }
 
