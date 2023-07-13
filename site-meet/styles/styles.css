@@ -462,8 +462,12 @@ form {
     grid-column: 10/19;
     grid-row: 8/15;
     margin-top: 50px;
-    border: 3px solid #E0AC5E;
+    border: 2px solid #E0AC5E;
 }
+.boat:hover {
+   transform:scale(1.1);
+}
+
 
 @media screen and (max-width: 900px) {
     .home-grid {
@@ -520,12 +524,15 @@ form {
         display: block;
         height: auto;
     }
+    .information {
+        margin-top: 0 auto;
+    }
     .boat{
         width: 90%;
         display: block;
         margin: 20px auto;
-
     }
+
     .form {
         display: block;
         width: 90%;
