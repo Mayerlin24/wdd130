@@ -362,15 +362,15 @@ footer a:hover, nav a:hover{
 }
 .contact-information {
     grid-column: 3/6;
-    grid-row: 6/7;
+    grid-row: 8/10;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
     color: #5A3929;
     
 }
 .contact-text {
     grid-column: 3/6;
-    grid-row: 8/9;
+    grid-row: 11/12;
     text-align: center;
     color: #5A3929;
     padding: 20px;
@@ -380,7 +380,7 @@ footer a:hover, nav a:hover{
 form {
     display: grid;
     grid-column: 3/6;
-    grid-row: 12/18;
+    grid-row: 12/16;
     /* Center the form on the page */
     margin: 100px auto;
     width: 400px;
@@ -460,7 +460,7 @@ form {
 }
 .boat {
     grid-column: 10/19;
-    grid-row: 8/15;
+    grid-row: 11/15;
     margin-top: 50px;
     border: 2px solid #E0AC5E;
 }
@@ -524,19 +524,11 @@ form {
         display: block;
         height: auto;
     }
-    .information {
-        margin-top: 0 auto;
-    }
+    
     .boat{
         width: 90%;
         display: block;
-        margin: 20px auto;
-    }
-
-    .form {
-        display: block;
-        width: 90%;
-        margin: 0 auto;
+        margin: 40px auto;
     }
 }
 
