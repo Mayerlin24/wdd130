@@ -381,10 +381,8 @@ form {
     display: grid;
     grid-column: 3/6;
     grid-row: 12/16;
-    /* Center the form on the page */
     margin: 100px auto;
     width: 400px;
-    /* Form outline */
     padding: 1em;
     border: 2px solid #E0AC5E;
     border-radius: 1em;
@@ -436,19 +434,21 @@ form {
     height: 5em;
   }
   
-  .button {
+  .button{
     /* Align buttons with the text fields */
-    padding-left: 90px; /* same size as the label elements */
+    padding-left: 95px;
 }
-  
-  .button {
-    /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
-    margin-left: 0.5em;
-  }
 
+.button button {
+    font-size: 1em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border: 1px solid #E0AC5E;
+    box-shadow: 2px 1px 1px #E0AC5E;
+    color:#5A3929;
+}
 
-  #feedback {
+#feedback {
     background-color: antiquewhite;
     position: absolute;
     top: 0;
